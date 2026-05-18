@@ -652,7 +652,7 @@
 				anchor_point = options.anchor_point or vec2(0, 0),
 
 				-- button
-				image = options.image or "rbxassetid://79856374238119",
+				image = options.image or "",
 				open = options.open or true,
 
 				-- ignore
@@ -838,7 +838,7 @@
 						BorderColor3 = rgb(0, 0, 0),
 						BackgroundColor3 = rgb(255, 255, 255),
 						Visible = true,
-						Image = "http://www.roblox.com/asset/?id=18245826428",
+						Image = "",
 						BackgroundTransparency = 1,
 						ImageTransparency = 0.8, 
 						Position = dim2(0, -20, 0, -20),
@@ -1192,7 +1192,7 @@ end)
 				items.Profile = library:create( "ImageLabel" , {
 					BorderColor3 = rgb(0, 0, 0);
 					Parent = items.LowContrast;
-					Image = "rbxasset://textures/ui/GuiImagePlaceholder.png";
+					Image = "";
 					BackgroundTransparency = 1;
 					Name = "\0";
 					Size = dim2(1, 0, 1, 0);
@@ -2796,9 +2796,9 @@ end)
 						Name = "",
 						ScrollBarImageColor3 = themes.preset.accent,
 						Active = true,
-						MidImage = "rbxassetid://103468666327206",
-						TopImage = "rbxassetid://103468666327206",
-						BottomImage = "rbxassetid://103468666327206",
+						MidImage = "",
+						TopImage = "",
+						BottomImage = "",
 						AutomaticCanvasSize = Enum.AutomaticSize.Y,
 						ScrollBarThickness = 2,
 						Size = dim2(1, 0, 1, -20),
@@ -2952,9 +2952,9 @@ end)
 				Active = true,
 				AutomaticCanvasSize = Enum.AutomaticSize.Y,
 				ScrollBarThickness = 2,
-				MidImage = "rbxassetid://103468666327206",
-				TopImage = "rbxassetid://103468666327206",
-				BottomImage = "rbxassetid://103468666327206",
+				MidImage = "",
+				TopImage = "",
+				BottomImage = "",
 				Size = dim2(1, 0, 1, -20),
 				BackgroundTransparency = 1,
 				Position = dim2(0, 0, 0, 20),
@@ -3702,7 +3702,7 @@ end)
 					Parent = alpha_drag,
 					ScaleType = Enum.ScaleType.Tile,
 					BorderColor3 = rgb(0, 0, 0),
-					Image = "rbxassetid://18274452449",
+					Image = "",
 					BackgroundTransparency = 1,
 					Name = "alphaind",
 					Size = dim2(1, 0, 1, 0),
@@ -4717,9 +4717,9 @@ end)
 						BorderColor3 = rgb(0, 0, 0),
 						Name = "background",
 						BackgroundTransparency = 1,
-						MidImage = "rbxassetid://103468666327206",
-						TopImage = "rbxassetid://103468666327206",
-						BottomImage = "rbxassetid://103468666327206",
+						MidImage = "",
+						TopImage = "",
+						BottomImage = "",
 						Position = dim2(0, 1, 0, 1),
 						Size = dim2(1, -2, 1, 1),
 						ZIndex = 2,
@@ -5028,9 +5028,9 @@ end)
 					Name = "",
 					ScrollBarImageColor3 = themes.preset.accent,
 					Active = true,
-					MidImage = "rbxassetid://103468666327206",
-					TopImage = "rbxassetid://103468666327206",
-					BottomImage = "rbxassetid://103468666327206",
+					MidImage = "",
+					TopImage = "",
+					BottomImage = "",
 					AutomaticCanvasSize = Enum.AutomaticSize.Y,
 					ScrollBarThickness = 2,
 					BackgroundTransparency = 1,
@@ -5694,9 +5694,9 @@ end)
 					Name = "",
 					ScrollBarImageColor3 = themes.preset.accent,
 					Active = true,
-					MidImage = "rbxassetid://103468666327206",
-					TopImage = "rbxassetid://103468666327206",
-					BottomImage = "rbxassetid://103468666327206",
+					MidImage = "",
+					TopImage = "",
+					BottomImage = "",
 					AutomaticCanvasSize = Enum.AutomaticSize.Y,
 					ScrollBarThickness = 2,
 					BackgroundTransparency = 1,
