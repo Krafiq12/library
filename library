@@ -69,7 +69,7 @@
 
 -- library init
 	local library = {
-		directory = "GodWare",
+		directory = "godwarenewui",
 		folders = {
 			"/fonts",
 			"/configs",
